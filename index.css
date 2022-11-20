@@ -1,0 +1,118 @@
+html{
+    background: url(mmm.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+h3 {
+    color: white;
+}
+.đềmục {
+    color: rgb(160, 155, 155);
+    margin:20px 0px 0px 80px ;
+    font-weight: 300px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.communication{
+    color: white;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size:25px;
+    border-left: 2px solid #66e0ff;
+    border-right: 2px solid #66e0ff;
+    padding: 0px 30px 30px 30px;
+    line-height: 40px;
+}
+
+
+#button-prev{ 
+    margin: 15px 1100px 30px 130px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+a{
+    text-decoration:none;
+}
+#seclection-1{
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    
+}
+#seclection-2{
+    margin: 30px 20px 0px 20px;
+    text-align:center;    
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 10%;
+    color: #0091b6;
+}
+.select_io{
+    display: flex;
+    justify-content : space-between;
+    margin-top: 20px ;
+    background: #4d4d4d;
+    padding: 15px 0px 15px 15px;
+}
+
+
+.logo {
+    margin-top: 10px;
+    cursor: pointer;
+    color:#23cffa;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(2, 100, 124);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer ;
+    transition: all 0.3s ease 0s;
+    margin-top: -40px;
+}
+button:hover {
+    background-color: rgba(119, 228, 255, 0.8);
+}
+.logo1{
+    cursor: pointer;
+    width: 100px;
+}
+#slidebar {
+    color: black ;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding: 20px 0px 20px 80px;
+}
+.button_icon{
+    float: right;
+}
+#slidebar{
+    background: rgba(0,136,169,0.8);
+}
+
+h4{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+} 
